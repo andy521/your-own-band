@@ -1,0 +1,5 @@
+<button bindtap='Guitar' style="margin-top:40px">Ukulele</button>
+<button bindtap='ElectronicKeyboard' style="margin-top:40px">Electronic Keyboard</button>
+<button bindtap='Drum' style="margin-top:40px">Drum</button>
+<button style="margin-top:40px">未完待续</button>
+<image src="/images/background.png" class="picture" mode="asspectFill" ></image>

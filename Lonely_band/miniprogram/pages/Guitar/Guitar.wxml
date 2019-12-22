@@ -1,0 +1,7 @@
+<button style="margin-top:20px">示例</button>
+
+<button bindtap='GuitarExample1' >洋娃娃和小熊跳舞</button>
+<button bindtap='GuitarExample2'>晴天</button>
+<button bindtap='GuitarExample3'>安静</button>
+<button bindtap='input' style="margin-top:80px">上传乐谱</button>
+<image src="/images/background.png" class="picture" mode="asspectFill" ></image>

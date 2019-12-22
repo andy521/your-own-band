@@ -1,0 +1,9 @@
+/* miniprogram/pages/page_one/page_one.wxss */
+.picture{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-size: 100% 100%;
+  z-index: -1;
+}

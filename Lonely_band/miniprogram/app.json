@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/mypage/mypage",
+    "pages/choice/choice",
+    "pages/Guitar/Guitar",
+    "pages/GuitarExample1/GuitarExample1",
+    "pages/input/input",
+    "pages/person/person",
+    "pages/developing/developing",
+    "pages/GuitarExample2/GuitarExample2",
+    "pages/GuitarExample3/GuitarExample3"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "女神泪小队",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#8B0000",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/mypage/mypage",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/homered.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/person/person",
+        "iconPath": "images/my.png",
+        "selectedIconPath": "images/myred.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

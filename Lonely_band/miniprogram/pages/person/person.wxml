@@ -1,0 +1,17 @@
+<view id='myLogin'>
+<block wx:if='{{isLogin}}'>
+<image id='myIcon' src='{{src}}'></image>
+<text id='nickName'>{{nickName}}</text>
+</block>
+<button wx:else open-type='getUserInfo' binggetuserinfo='getMyInfo'>未登录，点此登录</button>
+</view>
+
+<view id='myFavorites'>
+<text>我的收藏</text>
+<view id='music-list'>
+<view class='list-item' wx:for="{{musicList}}" wx:for-item="music" wx:key="{{news.id}}">
+<image src='/images/music.png'></image>
+<text class='music-title'>♢♢♢{{music.title}}</text>
+</view>
+</view>
+</view>
